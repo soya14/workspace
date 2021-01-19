@@ -1,0 +1,18 @@
+package com.example.demo;
+
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+public class SpringBootHelloWorld {
+
+	public static void main(String[] args) {
+		// TODO 自動產生的方法 Stub
+
+	}
+	
+	@RequestMapping("/")
+	public String hello(){
+		return "Hey, Spring Boot 的 Hello World ! ";
+	}
+
+}
